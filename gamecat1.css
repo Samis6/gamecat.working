@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 tw-story {
-  background: #000;
+  background: black;
   color: #fff;
-  padding: 5%;
+  padding: 0%;
 }
 
 img {
@@ -15,15 +15,17 @@ ul li {
   margin: 5px;
   padding: 5px;
 }
-
+  
 .main {
-  background: url('https://img.elo7.com.br/product/zoom/DFFA97/papel-de-parede-listra-marrom-e-bege1750-infantario.jpg') no-repeat center;
+  
+  background: url('https://github.com/Samis6/gamecat1/blob/master/FORMAS%20DE%20CHARLIE/vamo%20verrrr.png?raw=true') no-repeat center;
   background-size: cover;
   max-width: 1200px;
   margin: 10px auto;
   display: flex;
   justify-content: end;
   flex-direction: column;
+  flex-wrap:wrap;
   padding: 20px;
   text-align: center;
 }
