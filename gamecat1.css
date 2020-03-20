@@ -16,18 +16,55 @@ ul li {
   padding: 5px;
 }
   
-.main {
+.main{
+    background: url('https://github.com/Samis6/gamecat1/blob/master/FORMAS%20DE%20CHARLIE/vamo%20verrrr.png?raw=true') no-repeat center;
+	background-size: cover; 
+  	max-width: 1200px;
+  	margin: 10px auto;
+  	display: flex;
+  	justify-content: end;
+  	flex-direction: column;
+  	flex-wrap:wrap;
+  	padding: 20px;
+  	text-align: center;
+
+
   
-  background: url('https://github.com/Samis6/gamecat1/blob/master/FORMAS%20DE%20CHARLIE/vamo%20verrrr.png?raw=true') no-repeat center;
-  background-size: cover;
-  max-width: 1200px;
-  margin: 10px auto;
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  flex-wrap:wrap;
-  padding: 20px;
-  text-align: center;
+}
+
+tw-story[tags~="QUARTORAMI"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/QUARTO%20RAMILA.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="SALA"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/SALAA.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="RUA"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/RUA.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="TELHADO"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/TELHADO.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="PANDORA"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/QUARTO%20PANDORA.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="QUINTAL"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/backyard-barbecue-in-the-night-vector.jpg?raw=true");
+ 	background-size: cover;  
+}
+
+tw-story[tags~="CEMITERIO"] .main {
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/338.jpg?raw=true");
+ 	background-size: cover;  
 }
 
 .dialog {
