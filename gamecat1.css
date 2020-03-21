@@ -32,6 +32,11 @@ ul li {
   
 }
 
+tw-story[tags~="credito"]{
+	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/Creditos.jpg?raw=true");  
+  background-size: cover;
+}
+
 tw-story[tags~="QUARTORAMI"] .main {
 	background-image: url("https://github.com/Samis6/gamecat1/blob/master/BG/QUARTO%20RAMILA.jpg?raw=true");
  	background-size: cover;  
